@@ -2,8 +2,8 @@ import { Container } from './Style.jsx'
 
 export default function Home() {
   return (
-    <View>
-      <Text>Home</Text>
-    </View>
+    <div>
+      <h1>Home</h1>
+    </div>
   )
 }
