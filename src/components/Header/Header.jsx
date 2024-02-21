@@ -10,10 +10,10 @@ export default function Header() {
                 <a href='/'>(12) 18765-3451</a>
                 <ul>
                     <li>
-                        user
+                        🧑
                     </li>
                     <li>
-                        carrinho
+                        🛒
                     </li>
                 </ul>
             </nav>

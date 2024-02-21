@@ -22,6 +22,10 @@ export function Searcher() {
     }
 
     return (
-        <Container type="search" placeholder='O que você procura?' required value={value} onChange={handleChange} onKeyDown={(e) => { if (e.key === 'Enter') { handleSearch() } }} />
+        <Container>
+            <input type="search" placeholder='O que você procura?' required value={value} onChange={handleChange} onKeyDown={(e) => { if (e.key === 'Enter') { handleSearch() } }} />
+            <i className='Search-icon'>🔎</i>
+        </Container>
+
     )
 }
